@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+
+ <h3>REST Countries App</h3>
+
+    <div class="top-controls">
+        <input type="text" id="searchInput" placeholder="Search country..." />
+        <select id="select1"></select>
+        <button id="Togglebtn">Light Mode</button>
+    </div>
+
+    <div id="mainn"></div>
+
+    <div id="outerdiv">
+        <div id="upperdiv">
+            <button class="close-btn" onclick="closeModal()">X</button>
+            <div id="modalContent"></div>
+            <h4>Images</h4>
+            <div id="imageContainer"></div>
+        </div>
+    </div>
+
+    <div id="arrowup"><i class="fa-solid fa-arrow-up"></i></div>
+
+
+
+
+     <script src="Script.js"></script>
+</body>
+</html>
